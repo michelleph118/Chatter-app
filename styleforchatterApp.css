@@ -1,0 +1,149 @@
+* {
+	background-color: #F2F8F5;
+	font-family:Roboto, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+		width: 100%;
+		height: 100%;
+	}
+section {
+		position:fixed;
+		vertical-align: top;
+		height: 100vh;
+	}
+#channel-area {
+		width: 399px;
+		height: 100vh;
+		border-right: 1px solid grey;
+
+	}
+#mess-area {
+		left: 400px;
+		width: calc(100% - 400px);
+	}
+/*App bar */
+.headbar {
+		background-color: #FAEABF;
+		color: #52A6DE;
+		height: 66px;
+		font-size: small; 
+		padding:0px 22px 0px 22px;
+		line-height: 66px;
+	}
+	.headbar img {
+		background-color:#FAE91F;
+	}
+	#logo {
+		height: 50px;
+	}
+	#app-title {
+       color: #E08266;
+       background-color: inherit;
+	}
+	h1 {
+		font-size: 20px;
+
+		 }
+/* Channels List */
+	h2 {
+		color: #E08266;
+		font-size:smaller;
+		text-transform: uppercase;
+		font-weight: bolder;
+		letter-spacing: 3px;
+		margin: 20px 10px 20px 10px;
+	}
+	.channels-list {
+		list-style-type: none;
+		background-color: white;
+	}
+	.channels-list li {
+		box-sizing: border-box;
+		padding: 22px;
+		height: 66px;
+	}
+	.channels-list li.selected {
+		background-color: #FAEABF;
+		border-right: 3px solid darkgreen;
+	}
+	.channel-name  { 
+		font-size: 15px;
+		font-weight: bolder;
+
+	}
+	.channels-list .time {
+		font-style: italic;
+		font-size: smaller;
+	}
+	li.selected .time {
+		background-color:  #FAEABF;
+	}
+	li.selected .channel-name {
+		background-color:  #FAEABF;
+	}
+/* Message */
+.headbar h1 {
+	display: inline;
+	background-color: #FAEABF;
+	color: #E08266;
+}
+.message {
+    width: 75%;
+	}
+.mess-content {
+	text-align: left;
+    padding: 20px;
+    margin: 10px 20px;
+}
+	.incoming-mess .mess-content {
+    background-color: #FAEABF;
+	}
+	.outgoing-mess .mess-content {
+ 	background-color: #65BBC1;
+ 	color: white;
+	}
+	.message h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #FAEABF;
+    color: #E08266;
+    letter-spacing: 1px;
+	}
+	.incoming-mess p {
+		font-size: 14px;
+		font-style: italic;
+		background-color: #FAEABF;
+	}
+	.outgoing-mess p {
+		font-size: 14px;
+		font-style: italic;
+		background-color: #65BBC1;
+	}
+	#chat-area .time {
+		font-size: small;
+		position: relative;
+		left: 15px;
+		margin-top: -1px;
+	}
+
+	button {
+		color: #FAF4D7;
+		background-color: #E08266;
+		text-transform: uppercase;
+		font-size:larger;
+		font-style: bold;
+		border-color: #E08266;
+	}
+	p {
+		background-color: #E9F0D8;
+		border: 1px;
+	}
+	input {
+        border-color: #E08266;
+        margin-top: 20px;
+        
+	}
+	
+	

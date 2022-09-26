@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title> chatter|app </title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="../My Web Edx/styleforchatterApp.css">
+
+</head>
+
+<body>
+
+	<!--channel-area-->
+	<section id="channel-area">
+
+		<div class="headbar">
+	        <h1 id="app-title"> 
+		         <img id="logo" src="https://image.spreadshirtmedia.net/image-server/v1/designs/179997742,width=300,height=300/happy-bird-mit-blume.jpg" alt="chatterapp image">
+		         chatter|app
+	        </h1>
+		</div>
+
+		<div>
+	        <h2> Favourites </h2>
+	            <ul class="channels-list">
+	                 <li class="selected">
+		                 <span class="channel-name"> MeetUp </span> 
+		                 <span class="time"> 10:52 </span>
+	                 </li>
+	                 <li>
+		                 <span class="channel-name"> Hafensgeburtstag </span>
+		                 <span class="time"> 15:00 </span>
+	                 </li>
+	            </ul>
+	        <h2> Regular </h2>
+	            <ul class="channels-list">
+	                 <li>
+		                 <span class="channel-name">WeatherChannel</span> 
+		                 <span class="time"> Today </span>
+	                 </li>
+	                 <li>
+		                 <span class="channel-name"> SevenContinents </span> 
+		                 <span class="time"> 19 Sep 2022 </span>
+	                 </li>
+                </ul>
+        </div>
+
+    </section>
+
+<!--chat area-->
+    <section id="mess-area">
+        <div class="headbar">
+	         <h1> MeetUp </h1>
+	             <button> Favourite </button>
+        </div>
+
+        <div id="chat-area">
+	        <div class="message incoming-mess">
+	            <div class="mess-content">
+	                 <h3> LaPetite </h3>
+	                 <p> Hi, are you in vacation now? </p>
+ 	            </div>
+	            <span class="time">11:20 </span>
+            </div>
+            <div class="message incoming-mess">
+	            <div class="mess-content">
+	                 <h3> ChickenPing </h3>
+	                 <p> I have some good news </p>
+	            </div>
+	            <span class="time">20:24</span>
+	        </div>
+	        <div class="message incoming-mess">
+	            <div class="mess-content">
+	                 <h3> Suta </h3>
+	                 <p> I don't want an unphotoshophed picture of me on Facebook grrrr </p>
+	            </div>
+	            <span class="time">04:05</span>
+ 	        </div>
+ 	        <div class=" message outgoing-mess">
+ 	            <div class="mess-content">
+	                 <p> Ok, I will send you before I post it on Facebook :) </p>
+ 	            </div>
+	            <span class="time"> 05:20 </span>
+            </div>
+        </div>
+
+        <div>
+	        <input type="text" placeholder="write your message">
+	        <button>Send</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
